@@ -1,54 +1,48 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+header{
+    font-family: sans-serif;
+    display: flex;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    min-height: 70px;
+    width: 100%;
+}
+
+header a:hover {
+    color: white;
+}
+
+
+.titulo {
+
+    font-weight: bold;
+}
+
+.logo{
+    display: flex;
+    width: 350px;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: orange;
-}
-
-h1{
-    text-align: center;
-    font-weight: bold;
-}
-
-ul{
-    display: flex;
-    justify-content: space-between;
-}
-
-ul li {
-    list-style-type: none;
-    display: inline-block;
-}
-
-ul li a {
-    text-decoration: none;
-    color: black;
-    margin: 100px;
-    font-weight: bold;
-    padding-bottom: 90px;
-}
-
-header {
-    border-style: dotted;
-}
-
-main p {
-    margin-top: 20px;
-    margin-left: 40px;
-}
-
-main img {
-margin-top: 20px;
-margin-left: 40px;
-height: 300px;
-width: 500px;    
-}
-
-.Entradas1 {
-    font-size: large;
-    border-style: double;
-    font-weight: bolder;
+    background-color: white;
 }
 
 .piedepagina {
@@ -68,3 +62,68 @@ width: 500px;
    align-items: end;
    margin-top: 10px;
 }
+
+.brujasodre {
+    width: 500px;
+}
+
+.LINKS {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.LINKS:hover{
+    color: grey;
+}
+
+footer{
+    text-decoration: none;
+}
+
+.BOTON{
+    width: 300px;
+}
+
+.fotodisco {
+    display: flex;
+    width: 450px;
+    height: 450px;
+    align-content: center;
+    justify-content: center;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+
+.redessociales {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   margin-top: 10px;
+   text-decoration: none;
+   justify-content: space-between;
+}
+
+.titulo2{
+    text-align: center;
+    font-size: bold;
+}
+
+@media (max-width: 800px){
+    header{ 
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+}
+
+@media (max-width: 430px){
+    header{
+        flex-direction: column;
+        padding: 0px 0px;
+    }
+}
+
